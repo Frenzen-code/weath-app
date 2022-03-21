@@ -7,28 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
 
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>
   <body>
+    <div class="opacity">
+    
+    <header>
     <h1>
       Open Weather API
     </h1>
-    <input id="searchTerm" type="text" placeholder="Enter search term" />
+  </header>
+
+    <section class="button">
+    <input id="searchTerm" type="text" placeholder="Enter a city name" />
     <button id="search">
       Search
     </button>
-   <section>
-     <img src="" alt="">
+    </section>
+   <section class ="image">
    </section>
    <section class="city-details">
      <h3>City: </h3>
      <h4 class="city__name"></h4>
      <h3>Temperature:</h3>
      <h4 class="city__temperature"></h4>
+     <h3>Temperature Maximale:</h3>
+     <h4 class="city__temperature-max"></h4>
+     <h3>Temperature Min:</h3>
+     <h4 class="city__temperature-min"></h4>
+     <h3>Weather</h3>
+     <h4 class="weather"></h4>
+     <h3>Pressure:</h3>
+     <h4 class="pressure"></h4>
+     <h3>Humidity:</h3>
+     <h4 class="humidity"></h4>
 
+      
    </section>
+  </div>
   </body>
 </html>
